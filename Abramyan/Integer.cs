@@ -16,8 +16,8 @@
 // Используя операцию деления нацело,найти количество полных килобайтов,
 // которые занимает данный файл(1 килобайт = 1024 байта).
 // Console.Write("Введите размер файла: ");
-// int bait = int.Parse(Console.ReadLine());
-// Console.WriteLine($"Размер файла в Кбайт: {bait / 1024}");
+// int bytes = int.Parse(Console.ReadLine());
+// Console.WriteLine($"Размер файла в Кбайт: {bytes / 1024}");
  
 // Integer4 Даны целые положительные числа A и B (A > B).
 // На отрезке длины A размещено максимально возможное количество отрезков длины B (без наложений).
@@ -41,15 +41,13 @@
 // Для нахождения десятков использовать операцию деления нацело,
 // для нахождения единиц — операцию взятия остатка от деления.
 // Console.Write("Введите двузначное число A: ");
-// int a = int.Parse(Console.ReadLine());
-// int left = a / 10;
-// int right = a % 10;
-// Console.WriteLine($"Левая цифра: {left}");
-// Console.WriteLine($"Правая цифра: {right}");
+// int a = int.Parse(Console.ReadLine()!);
+// Console.WriteLine($"Левая цифра: {a / 10}");
+// Console.WriteLine($"Правая цифра: {a % 10}");
 
 // Integer7 Дано двузначное число. Найти сумму и произведение его цифр.
 // Console.Write("Введите двузначное число A: ");
-// int a = int.Parse(Console.ReadLine());
+// int a = int.Parse(Console.ReadLine()!);
 // int left = a / 10;
 // int right = a % 10;
 // Console.WriteLine($"Сумма: {left + right}");
@@ -82,46 +80,31 @@
 
 // Integer12 Дано трехзначное число. Вывести число, полученное при прочтении исходного числа справа налево.
 // Console.Write("Введите трехзначное число A: ");
-// int a = int.Parse(Console.ReadLine());
-// int first = a % 10;
-// int second = a / 10 % 10;
-// int third = a / 100;
-// Console.WriteLine($"Число наоборот: {first}{second}{third}");
+// int a = int.Parse(Console.ReadLine()!);
+// Console.WriteLine($"Число наоборот: {a % 10}{a / 10 % 10}{a / 100}");
 
 // Integer13 Дано трехзначное число. В нем зачеркнули первую слева цифру и приписали ее справа. Вывести полученное число.
 // Console.Write("Введите трехзначное число A: ");
-// int a = int.Parse(Console.ReadLine());
-// int first = a / 100;
-// int second = a / 10 % 10;
-// int third = a % 10;
-// Console.WriteLine($"Число: {second}{third}{first}");
+// int a = int.Parse(Console.ReadLine()!);
+// Console.WriteLine($"Число: {a / 10 % 10}{a % 10}{a / 100}");
 
 //Integer14 Дано трехзначное число. В нем зачеркнули первую справа цифру и приписали ее слева.
 //Вывести полученное число.
 // Console.Write("Введите трехзначное число A: ");
 // int a = int.Parse(Console.ReadLine());
-// int first = a / 100;
-// int second = a / 10 % 10;
-// int third = a % 10;
-// Console.WriteLine($"Число: {third}{first}{second}");
+// Console.WriteLine($"Число: {a % 10}{a / 100}{a / 10 % 10}");
 
 // Integer15 Дано трехзначное число.
 // Вывести число, полученное при перестановке цифр сотен и десятков исходного числа (например, 123 перейдет в 213).
 // Console.Write("Введите трехзначное число A: ");
-// int a = int.Parse(Console.ReadLine());
-// int first = a / 100;
-// int second = a / 10 % 10;
-// int third = a % 10;
-// Console.WriteLine($"Число: {second}{first}{third}");
+// int a = int.Parse(Console.ReadLine()!);
+// Console.WriteLine($"Число: {a / 10 % 10}{a / 100}{a % 10}");
 
 // Integer16 Дано трехзначное число.
 // Вывести число, полученное при перестановке цифр десятков и единиц исходного числа (например, 123 перейдет в 132).
 // Console.Write("Введите трехзначное число A: ");
-// int a = int.Parse(Console.ReadLine());
-// int first = a / 100;
-// int second = a / 10 % 10;
-// int third = a % 10;
-// Console.WriteLine($"Число: {first}{third}{second}");
+// int a = int.Parse(Console.ReadLine()!);
+// Console.WriteLine($"Число: {a / 100}{a % 10}{a / 10 % 10}");
 
 // Integer17 Дано целое число, большее 999.
 // Используя одну операцию деления нацело и одну операцию взятия остатка от деления,
