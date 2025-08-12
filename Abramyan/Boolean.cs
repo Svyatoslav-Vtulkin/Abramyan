@@ -64,8 +64,8 @@
 // int a = int.Parse(Console.ReadLine());
 // Console.Write("Введите значение B: ");
 // int b = int.Parse(Console.ReadLine());
-// bool result = a % 2 != 0 && b % 2 != 0;
-// Console.WriteLine(result);
+// bool isOdd = a % 2 != 0 && b % 2 != 0;
+// Console.WriteLine(isOdd);
 
 // Boolean9 Даны два целых числа: A, B.
 // Проверить истинность высказывания: «Хотя бы одно из чисел A и B нечетное»
@@ -90,8 +90,8 @@
 // int a = int.Parse(Console.ReadLine());
 // Console.Write("Введите значение B: ");
 // int b = int.Parse(Console.ReadLine());
-// bool result = (a % 2 == 0 && b % 2 == 0) || (a % 2 != 0 && b % 2 != 0);
-// Console.WriteLine(result);
+// bool isSameParity = (a % 2 == 0 && b % 2 == 0) || (a % 2 != 0 && b % 2 != 0);
+// Console.WriteLine(isSameParity);
 
 // Boolean12 Даны три целых числа: A, B, C. Проверить истинность высказывания: «Каждое из чисел A, B, C положительное».
 // Console.Write("Введите значение A: ");
@@ -100,8 +100,8 @@
 // int b = int.Parse(Console.ReadLine());
 // Console.Write("Введите значение C: ");
 // int c = int.Parse(Console.ReadLine());
-// bool result = a > 0 && b > 0 && c > 0;
-// Console.WriteLine(result);
+// bool EveryPositive = a > 0 && b > 0 && c > 0;
+// Console.WriteLine(EveryPositive);
 
 // Boolean13 Даны три целых числа: A, B, C.
 // Проверить истинность высказывания: «Хотя бы одно из чисел A, B, C положительное».
@@ -111,8 +111,8 @@
 // int b = int.Parse(Console.ReadLine());
 // Console.Write("Введите значение C: ");
 // int c = int.Parse(Console.ReadLine());
-// bool result = a > 0 || b > 0 || c > 0;
-// Console.WriteLine(result);
+// bool isPositive = a > 0 || b > 0 || c > 0;
+// Console.WriteLine(isPositive);
 
 // Boolean14 Даны три целых числа: A, B, C.
 // Проверить истинность высказывания: «Ровно одно из чисел A, B, C положительное».
@@ -175,5 +175,7 @@
 Console.Write("Введите значение A: ");
 int a = int.Parse(Console.ReadLine()!);
 Console.Write("Введите значение B: ");
-bool result = ;
+bool result = a % 10 != a / 10 % 10 &&  a / 10 % 10 != a / 100 ;
 Console.WriteLine(result);
+
+// 
