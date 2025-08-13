@@ -15,8 +15,8 @@
 // Boolean3 Дано целое число A. Проверить истинность высказывания: «Число A является четным».
 // Console.Write("Введите значение A: ");
 // int a = int.Parse(Console.ReadLine()!);
-// bool Even = a % 2 == 0;
-// Console.WriteLine(Even);
+// bool isEven = a % 2 == 0;
+// Console.WriteLine(isEven);
 
 // Boolean4 Даны два целых числа: A, B.
 // Проверить истинность высказывания: «Справедливы неравенства A > 2 и B ≤ 3».
@@ -24,8 +24,8 @@
 // int a = int.Parse(Console.ReadLine()!);
 // Console.Write("Введите значение B: ");
 // int b = int.Parse(Console.ReadLine()!);
-// bool Inequality = a > 2 && b <= 3;
-// Console.WriteLine(Inequality);
+// bool isInequality = a > 2 && b <= 3;
+// Console.WriteLine(isInequality);
 
 // Boolean5 Даны два целых числа: A, B.
 // Проверить истинность высказывания: «Справедливы неравенства A ≥ 0 или B < −2»
@@ -33,8 +33,8 @@
 // int a = int.Parse(Console.ReadLine());
 // Console.Write("Введите значение B: ");
 // int b = int.Parse(Console.ReadLine());
-// bool Inequality = a >= 0 || b <- 2;
-// Console.WriteLine(Inequality);
+// bool isInequality = a >= 0 || b <- 2;
+// Console.WriteLine(isInequality);
 
 // Boolean6 Даны три целых числа: A, B, C.
 // Проверить истинность высказывания: «Справедливо двойное неравенство A < B < C».
@@ -44,8 +44,8 @@
 // int b = int.Parse(Console.ReadLine()!);
 // Console.Write("Введите значение C: ");
 // int c = int.Parse(Console.ReadLine()!);
-// bool doubleInequality = a < b && b < c;
-// Console.WriteLine(doubleInequality);
+// bool isDoubleInequality = a < b && b < c;
+// Console.WriteLine(isDoubleInequality);
 
 // Boolean7 Даны три целых числа: A, B, C.
 // Проверить истинность высказывания: «Число B находится между числами A и C».
@@ -55,8 +55,8 @@
 // int b = int.Parse(Console.ReadLine()!);
 // Console.Write("Введите значение C: ");
 // int c = int.Parse(Console.ReadLine()!);
-// bool MiddleNumber = a < b && b < c || a > b && b > c;
-// Console.WriteLine(MiddleNumber);
+// bool isMiddleNumber = a < b && b < c || a > b && b > c;
+// Console.WriteLine(isMiddleNumber);
 
 // Boolean8 Даны два целых числа: A, B.
 // Проверить истинность высказывания: «Каждое из чисел A и B нечетное».
@@ -100,8 +100,8 @@
 // int b = int.Parse(Console.ReadLine());
 // Console.Write("Введите значение C: ");
 // int c = int.Parse(Console.ReadLine());
-// bool EveryPositive = a > 0 && b > 0 && c > 0;
-// Console.WriteLine(EveryPositive);
+// bool isEveryPositive = a > 0 && b > 0 && c > 0;
+// Console.WriteLine(isEveryPositive);
 
 // Boolean13 Даны три целых числа: A, B, C.
 // Проверить истинность высказывания: «Хотя бы одно из чисел A, B, C положительное».
@@ -122,8 +122,8 @@
 // int b = int.Parse(Console.ReadLine());
 // Console.Write("Введите значение C: ");
 // int c = int.Parse(Console.ReadLine());
-// bool result = (a > 0 && b <= 0 && c <= 0) || (a <= 0 && b > 0 && c <= 0) || (a <= 0 && b <= 0 && c > 0);
-// Console.WriteLine(result);
+// bool isPositive = (a > 0 && b <= 0 && c <= 0) || (a <= 0 && b > 0 && c <= 0) || (a <= 0 && b <= 0 && c > 0);
+// Console.WriteLine(isPositive);
 
 // Boolean15 Даны три целых числа: A, B, C.
 // Проверить истинность высказывания: «Ровно два из чисел A, B, C являются положительными».
@@ -133,22 +133,22 @@
 // int b = int.Parse(Console.ReadLine());
 // Console.Write("Введите значение C: ");
 // int c = int.Parse(Console.ReadLine());
-// bool result = (a > 0 && b > 0 && c <= 0) || (a > 0 && b <= 0 && c > 0) || (a <= 0 && b > 0 && c > 0);
-// Console.WriteLine(result);
+// bool isDoublePositive = (a > 0 && b > 0 && c <= 0) || (a > 0 && b <= 0 && c > 0) || (a <= 0 && b > 0 && c > 0);
+// Console.WriteLine(isDoublePositive);
 
 // Boolean16 Дано целое положительное число.
 // Проверить истинность высказывания: «Данное число является четным двузначным».
 // Console.Write("Введите значение A: ");
-// int a = int.Parse(Console.ReadLine());
-// bool result = a % 2 == 0 && a > 9 && a < 100;
-// Console.WriteLine(result);
+// int a = int.Parse(Console.ReadLine()!);
+// bool isDoubleDigit = a % 2 == 0 && a > 9 && a < 100;
+// Console.WriteLine(isDoubleDigit);
 
 // Boolean17 Дано целое положительное число.
 // Проверить истинность высказывания: «Данное число является нечетным трехзначным».
 // Console.Write("Введите значение A: ");
-// int a = int.Parse(Console.ReadLine());
-// bool result = a % 2 != 0 && a > 99 && a < 1000;
-// Console.WriteLine(result);
+// int a = int.Parse(Console.ReadLine()!);
+// bool isOddThreeDigit = a % 2 != 0 && a > 99 && a < 1000;
+// Console.WriteLine(isOddThreeDigit);
 
 // Boolean18 Проверить истинность высказывания: «Среди трех данных целых чисел есть хотя бы одна пара совпадающих».
 // Console.Write("Введите значение A: ");
@@ -157,8 +157,8 @@
 // int b = int.Parse(Console.ReadLine());
 // Console.Write("Введите значение C: ");
 // int c = int.Parse(Console.ReadLine());
-// bool result = a == b || a == c || b == c;
-// Console.WriteLine(result);
+// bool isPairMatch = a == b || a == c || b == c;
+// Console.WriteLine(isPairMatch);
 
 // Boolean19 Проверить истинность высказывания: «Среди трех данных целых чисел
 // есть хотя бы одна пара взаимно противоположных».
@@ -168,14 +168,13 @@
 // int b = int.Parse(Console.ReadLine());
 // Console.Write("Введите значение C: ");
 // int c = int.Parse(Console.ReadLine());
-// bool result = a == -b || a == -c || b == -c;
-// Console.WriteLine(result);
+// bool isOpposite = a == -b || a == -c || b == -c;
+// Console.WriteLine(isOpposite);
 
 // Boolean20 Дано трехзначное число. Проверить истинность высказывания: «Все цифры данного числа различны».
-Console.Write("Введите значение A: ");
-int a = int.Parse(Console.ReadLine()!);
-Console.Write("Введите значение B: ");
-bool result = a % 10 != a / 10 % 10 &&  a / 10 % 10 != a / 100 ;
-Console.WriteLine(result);
+// Console.Write("Введите значение A: ");
+// int a = int.Parse(Console.ReadLine()!);
+// Console.Write("Введите значение B: ");
+// bool isDifferent = a % 10 != a / 10 % 10 && a / 10 % 10 != a / 100 && a % 10 != a / 100;
+// Console.WriteLine(isDifferent);
 
-// 
