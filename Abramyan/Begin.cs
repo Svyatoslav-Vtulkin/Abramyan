@@ -12,14 +12,12 @@
 
 // Begin 3
 // Даны стороны прямоугольника a и b. Найти его площадь S = a·b и периметр P = 2·(a + b).
-// Console.Write("Введите значение a:");
-// int a = int.Parse(Console.ReadLine());
-// Console.Write("Введите значение b:");
-// int b = int.Parse(Console.ReadLine());
-// Console.Write("Площадь равна:");        // МОЖНО СОКРАТИТЬ
-// Console.WriteLine(a * b);
-// Console.Write("Периметр равен:");
-// Console.WriteLine(2 * (a + b));
+// Console.Write("Введите значение a: ");
+// int a = int.Parse(Console.ReadLine()!);
+// Console.Write("Введите значение b: ");
+// int b = int.Parse(Console.ReadLine()!);
+// Console.WriteLine($"Площадь равна: {a * b}");
+// Console.WriteLine($"Периметр равен:{2 * (a + b)}");
 
 // Begin 4
 // Дан диаметр окружности d. Найти ее длину L = π·d. В качестве значения π использовать 3.14.
@@ -30,11 +28,9 @@
 // Begin 5
 // Дана длина ребра куба a.Найти объем куба V = a^3 и площадь его поверхности S = 6·a^2.
 // Console.Write("Введите значение a:");
-// int a = int.Parse(Console.ReadLine());
-// Console.Write("Объем куба равен:");
-// Console.WriteLine(Math.Pow(a, 3));
-// Console.Write("Площадь поверхности равна:");
-// Console.Write(6 * Math.Pow(a,2));
+// int a = int.Parse(Console.ReadLine()!);
+// Console.WriteLine($"Объем куба равен:{Math.Pow(a, 3)}");
+// Console.WriteLine($"Площадь поверхности равна:{6 * a * a}");
 
 // Begin 6
 // Даны длины ребер a, b, c прямоугольного параллелепипеда.
