@@ -252,9 +252,8 @@
 //     a = -a;
 //     b = -b;
 //     c = -c;
-//     
 // }
-// Console.WriteLine($"New values A:{a} B:{b} C:{c}");
+// Console.WriteLine($"New values A: {a} B: {b} C: {c}");
 
 // If 17 Даны три переменные вещественного типа: A, B, C.
 // Если их значения упорядочены по возрастанию или убыванию, то удвоить их;
@@ -278,7 +277,7 @@
 //     b = -b;
 //     c = -c;
 // }
-// Console.WriteLine($"New values A:{a} B:{b} C:{c}");
+// Console.WriteLine($"New values A: {a} B: {b} C: {c}");
 
 // If 18 Даны три целых числа, одно из которых отлично от двух других, равных между собой.
 // Определить порядковый номер числа, отличного от остальных.
@@ -350,7 +349,7 @@
 // Console.Write("Введите число A: ");
 // int a = int.Parse(Console.ReadLine()!);
 // if (a == 0)
-//     Console.WriteLine("Null");
+//     Console.WriteLine("Zero");
 // else
 // {
 //     if (a > 0)
@@ -366,53 +365,42 @@
 
 // If 30 Дано целое число, лежащее в диапазоне 1–999.
 // Вывести его строку-описание вида «четное двузначное число», «нечетное трехзначное число» и т. д
-Console.Write("Введите число A: ");
-int a = int.Parse(Console.ReadLine()!);
-if (a % 2 == 0)
-    Console.Write("Even number");
-else
-    Console.Write("Odd number");
+// VARIANT 1
+// Console.Write("Введите число A: ");
+// int a = int.Parse(Console.ReadLine()!);
+//
+// if (a % 2 == 0)
+//     Console.Write("Even ");
+// else
+//     Console.Write("Odd ");
+//
+// if (a > 0 && a < 10)
+//     Console.Write("single-digit number");
+// else if (a > 9 && a < 100)
+//     Console.Write("double-digit number");
+// else
+//     Console.Write("three-digit number");
 
-if (a > 0 && a < 10)
-    Console.Write("Single-digit number");
-else if (a > 9 && a < 100)
-    Console.Write("Double-digit number");
-else
-    Console.Write("Three-digit number");
-
+// If 30 Дано целое число, лежащее в диапазоне 1–999.
+// Вывести его строку-описание вида «четное двузначное число», «нечетное трехзначное число» и т. д
+// VARIANT 2
+// Console.Write("Введите число A: ");
+// int a = int.Parse(Console.ReadLine()!);
 // if (a == 0)
 // {
-//     Console.WriteLine("Bull Shit");
+//     Console.WriteLine("Bull Shit, ЧИТАЙ ЗАДАНИЕ!!!!!!!!, СЛЕПОЙ!");
 // }
 // else
 // {
-//     if (a <= 10)
-//         Console.Write("Single-digit number");
-//     else if (a >= 10 && a <= 99)
-//         Console.Write("Double-digit number");
-//     else
-//         Console.Write("Three-digit number");
-//     
 //     if (a % 2 == 0)
-//          Console.WriteLine("Even number");
+//         Console.Write("Even ");
 //     else
-//          Console.WriteLine("Odd number");
-// }
-
-//
-// if (a >= 1 && a <= 999)
-// {
-//     if (a <= 10)
-//     {
-//         Console.Write("Single digit number");
-//     }
+//         Console.Write("Odd ");
 //     
-//     if (a % 2 == 0)
-//     {
-//         Console.WriteLine("Even number");
-//     }
+//     if (a < 10)
+//         Console.WriteLine("single-digit number");
+//     else if (a <= 99)
+//         Console.WriteLine("double-digit number");
 //     else
-//     { 
-//         Console.WriteLine("Odd number");
-//     }
+//         Console.WriteLine("three-digit number");
 // }
