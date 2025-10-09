@@ -268,19 +268,87 @@
 // }
 // // Console.Write(fk + " ");
 
-// For 36 Даны целые положительные числа N и K. Найти сумму
-// 1^K + 2^K + . . . + N^K.
+// For 36 Даны целые положительные числа N и K.
+// Найти сумму 1^K + 2^K + . . . + N^K.
 // Чтобы избежать целочисленного переполнения, вычислять слагаемые
 // этой суммы с помощью вещественной переменной и выводить результат как вещественное число.
-Console.Write("Введите число N: ");
-int n = int.Parse(Console.ReadLine()!);
-Console.Write("Введите число K: ");
-int k = int.Parse(Console.ReadLine()!);
-int sum = 1;
-int sum1 = 0;
-for (int i = 1; i < n; i++)
-{
-    sum *= i;
-    sum1 += sum;
-    Console.Write(sum1 + " ");
-}
+// Console.Write("Введите число N: ");
+// int n = int.Parse(Console.ReadLine()!);
+// Console.Write("Введите число K: ");
+// int k = int.Parse(Console.ReadLine()!);
+// int result = 0;
+// for (int i = 1; i <= n; i++)
+// {
+//     int pow = 1;
+//     for (int j = 0; j < k; j++)
+//     {
+//         pow *= i;
+//     }
+//     result += pow;
+//     Console.Write(pow + " ");
+// }
+
+// For 37 Дано целое число N (> 0).
+// Найти сумму 1^1 + 2^2 + . . . + N^N.
+// Console.Write("Введите число N: ");
+// int n = int.Parse(Console.ReadLine()!);
+// int sum = 0;
+// for (int i = 1; i <= n; i++)
+// {
+//     int pow = 1;
+//     for (int j = 1; j <= i; j++)
+//     {
+//         pow *= j;
+//     }
+//     sum += pow;
+//     Console.Write(sum + " ");
+// }
+
+// For 38 Дано целое число N (> 0).
+// Найти сумму 1^N + 2^N−1 + . . . + N^1.
+// Console.Write("Введите число N: ");
+// int n = int.Parse(Console.ReadLine()!);
+// int sum = 0;
+// for (int i = 1; i <= n; i++)
+// {
+//     int pow = 1;
+//     for (int j = 0; j <= n - i; j++)
+//     {
+//         pow *= i;
+//     }
+//     sum += pow;
+//     Console.WriteLine(sum + " ");
+// }
+
+// For 39 Даны целые положительные числа A и B (A < B). Вывести все целые
+// числа от A до B включительно; при этом каждое число должно выводиться
+// столько раз, каково его значение (например, число 3 выводится 3 раза).
+// Console.Write("Введите число A: ");
+// int a = int.Parse(Console.ReadLine()!);
+// Console.Write("Введите число B: ");
+// int b = int.Parse(Console.ReadLine()!);
+// for (int i = a; i <= b; i++)
+// {
+//     for (int j = 0; j < i; j++)
+//     {
+//         Console.Write(i + " ");
+//     }
+// }
+//
+
+
+// For 40 Даны целые числа A и B (A < B).
+// Вывести все целые числа от A до B включительно;
+// при этом число A должно выводиться 1 раз,
+// число A + 1 должно выводиться 2 раза и т. д.
+// Console.Write("Введите число A: ");
+// int a = int.Parse(Console.ReadLine()!);
+// Console.Write("Введите число B: ");
+// int b = int.Parse(Console.ReadLine()!);
+// for (int i = a; i <= b; i++)
+// {
+//     for (int j = 0; j <= i - a; j++)
+//     {
+//         Console.Write(i + " ");
+//     }
+// }
