@@ -132,9 +132,50 @@
 // Series 15 Дано целое число K и набор ненулевых целых чисел; признак его
 // завершения — число 0. Вывести номер первого числа в наборе, большего K.
 // Если таких чисел нет, то вывести 0.
-
-
+// Console.Write("Введите число K: ");
+// int k = int.Parse(Console.ReadLine()!);
+// int count = 0, number = 1, index = 0;
+// while (number != 0)
+// {
+//     Console.Write("Введите число: ");
+//      number = int.Parse(Console.ReadLine()!);
+//      index++;
+//      if (number > k && count == 0)
+//          count = index;
+// }
+// Console.WriteLine(count);
 
 // Series 16 Дано целое число K и набор ненулевых целых чисел; признак его
 // завершения — число 0. Вывести номер последнего числа в наборе, большего K.
 // Если таких чисел нет, то вывести 0.
+// Console.Write("Введите число K: ");
+// int k = int.Parse(Console.ReadLine()!);
+// int count = 0, number = 1, index = 0;
+// while (number != 0)
+// {
+//     Console.Write("Введите число: ");
+//     number = int.Parse(Console.ReadLine()!);
+//     index++;
+//     if (number > k)
+//         count = index;
+// }
+// Console.WriteLine(count);
+
+// Series 19 Дано целое число N (> 1) и набор из N целых чисел. Вывести те
+// элементы в наборе, которые меньше своего левого соседа, и количество K таких элементов.
+// Console.Write("Введите N: ");
+// int n = int.Parse(Console.ReadLine()!);
+// int current, count = 0, previous = int.MinValue;
+// for (int i = 1; i <= n; i++)
+// {
+//     Console.Write($"[{i}] = ");
+//     current = int.Parse(Console.ReadLine()!);
+//     if (current < previous)
+//     {
+//         count++;
+//         Console.WriteLine(current);
+//     }
+//
+//     previous = current;
+// }
+// Console.WriteLine($"Count: {count}");
