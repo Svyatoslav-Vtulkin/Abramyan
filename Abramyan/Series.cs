@@ -163,19 +163,57 @@
 
 // Series 19 Дано целое число N (> 1) и набор из N целых чисел. Вывести те
 // элементы в наборе, которые меньше своего левого соседа, и количество K таких элементов.
-// Console.Write("Введите N: ");
+// Console.Write("Введите число N: ");
 // int n = int.Parse(Console.ReadLine()!);
-// int current, count = 0, previous = int.MinValue;
-// for (int i = 1; i <= n; i++)
+// int count = 0, previous = int.MinValue;
+// for (int i = 0; i < n; i++)
 // {
-//     Console.Write($"[{i}] = ");
-//     current = int.Parse(Console.ReadLine()!);
-//     if (current < previous)
+//     Console.Write("Введите значение: ");
+//     int number = int.Parse(Console.ReadLine()!);
+//     if (number < previous)
 //     {
 //         count++;
-//         Console.WriteLine(current);
+//         Console.WriteLine($"Число меньше предыдущего: {number}");
 //     }
-//
-//     previous = current;
+//     previous = number;
 // }
-// Console.WriteLine($"Count: {count}");
+// Console.WriteLine($"Количество: {count}");
+
+// Series 20 Дано целое число N (> 1) и набор из N целых чисел. Вывести те
+// элементы в наборе, которые меньше своего правого соседа, и количество K таких элементов.
+// Console.Write("Введите число N: ");
+// int n = int.Parse(Console.ReadLine()!);
+// int count = 0, next = int.MaxValue;
+// for (int i = 0; i < n; i++)
+// {
+//     Console.Write("Введите значение: ");
+//     int number = int.Parse(Console.ReadLine()!);
+//     if (number > next)
+//     {
+//         count++;
+//         Console.WriteLine(number);
+//     }
+//     next = number;
+// }
+// Console.WriteLine($"Количество: {count}");
+
+// Series 21 Дано целое число N (> 1) и набор из N вещественных чисел.
+// Проверить, образует ли данный набор возрастающую последовательность.
+// Если образует, то вывести TRUE, если нет — вывести FALSE.
+// Console.Write("Введите число N: ");
+// int n = int.Parse(Console.ReadLine()!);
+// int count = 0, previous = int.MinValue;
+// bool isIncreasingSequence = true;
+// for (int i = 0; i < n; i++)
+// {
+//     Console.Write("Введите значение: ");
+//     int number = int.Parse(Console.ReadLine()!);
+//     if (number < previous)
+//     {
+//         count++;
+//         Console.WriteLine($"Число меньше предыдущего: {number}");
+//     }
+//     previous = number;
+// }
+// Console.WriteLine($"Количество: {count}");
+//
